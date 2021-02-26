@@ -1,0 +1,32 @@
+.main-block {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 85.49%;
+
+}
+
+.main-block {
+  padding: 60px 0;
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pokemon-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .load-more {
+    width: max-content;
+    margin: 0 auto;
+  }
+}
